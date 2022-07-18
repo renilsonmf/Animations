@@ -20,7 +20,7 @@ class MyAnimationView: UIView {
     }
     
     lazy var animationView: AnimationView = {
-        let animation = AnimationView(name: "saved")
+        let animation = AnimationView(name: "Saved")
         animation.contentMode = .scaleAspectFit
         animation.translatesAutoresizingMaskIntoConstraints = false
         animation.loopMode = .loop
