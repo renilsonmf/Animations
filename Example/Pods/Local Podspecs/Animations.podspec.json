@@ -18,5 +18,19 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Animations/Classes/**/*"
+  "dependencies": {
+    "lottie-ios": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Debug",
+      "source_files": "Animations/Classes/**/*.{h,m,swift,json}",
+      "resources": [
+        "Animations/Assets/**/*",
+        "Animations/Classes/**/*.{xib,json,ttf,png,strings,xcassets,storyboard}"
+      ]
+    }
+  ]
 }

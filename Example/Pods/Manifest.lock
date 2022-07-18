@@ -1,15 +1,25 @@
 PODS:
-  - Animations (0.1.0)
+  - Animations (0.1.0):
+    - Animations/Debug (= 0.1.0)
+    - lottie-ios
+  - Animations/Debug (0.1.0):
+    - lottie-ios
+  - lottie-ios (3.2.3)
 
 DEPENDENCIES:
   - Animations (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
 
 EXTERNAL SOURCES:
   Animations:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Animations: 7baa2a157fab5efaab28e7ba560e9358cd503238
+  Animations: 91932ee07d3689684281e2a0610702b39faf470c
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
 
 PODFILE CHECKSUM: c87adeb800711d7a6732bdce8bbeaea08e314c47
 
