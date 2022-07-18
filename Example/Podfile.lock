@@ -1,0 +1,16 @@
+PODS:
+  - Animations (0.1.0)
+
+DEPENDENCIES:
+  - Animations (from `../`)
+
+EXTERNAL SOURCES:
+  Animations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Animations: 7baa2a157fab5efaab28e7ba560e9358cd503238
+
+PODFILE CHECKSUM: c87adeb800711d7a6732bdce8bbeaea08e314c47
+
+COCOAPODS: 1.11.3
