@@ -24,7 +24,7 @@ public class AnimationViewController: UIViewController {
     }
     
     @objc func didTapMainAppBackButton() {
-        navigationController?.dismiss(animated: true)
+        dismiss(animated: true, completion: nil)
     }
 
     func playAnimation() {
